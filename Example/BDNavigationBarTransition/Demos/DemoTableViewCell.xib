@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DemoCell" rowHeight="69" id="KGk-i7-Jjw" customClass="DemoTableViewCell" customModule="NavigationDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="412" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2QH-bI-UMM">
+                        <rect key="frame" x="333" y="19.5" width="53" height="30"/>
+                        <state key="normal" title="Present"/>
+                        <connections>
+                            <action selector="presentButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NYY-SW-8Jd"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEi-XN-mei">
+                        <rect key="frame" x="171" y="19.5" width="140" height="30"/>
+                        <state key="normal" title="PushAndHideTabBar"/>
+                        <connections>
+                            <action selector="pushButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="YN2-ER-ZDg"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GEi-XN-mei" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="G2W-jv-ti5"/>
+                    <constraint firstItem="2QH-bI-UMM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Kuo-lS-Mgy"/>
+                    <constraint firstAttribute="trailing" secondItem="2QH-bI-UMM" secondAttribute="trailing" constant="26" id="cxn-Pd-6wF"/>
+                    <constraint firstItem="2QH-bI-UMM" firstAttribute="leading" secondItem="GEi-XN-mei" secondAttribute="trailing" constant="22" id="dEg-vi-Aiw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="204.34782608695653" y="134.93303571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

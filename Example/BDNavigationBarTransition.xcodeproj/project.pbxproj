@@ -15,6 +15,18 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		87C17AA6F6DDA32AC65E9A67 /* Pods_BDNavigationBarTransition_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC45638B2EBC1F2929780D41 /* Pods_BDNavigationBarTransition_Example.framework */; };
+		BC5FB7A22505DB08003FEE7A /* DynamicNaviBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7982505DB08003FEE7A /* DynamicNaviBarViewController.swift */; };
+		BC5FB7A32505DB08003FEE7A /* ScrollHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7992505DB08003FEE7A /* ScrollHeaderViewController.swift */; };
+		BC5FB7A42505DB08003FEE7A /* BaseDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB79A2505DB08003FEE7A /* BaseDemoViewController.swift */; };
+		BC5FB7A52505DB08003FEE7A /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5FB79B2505DB08003FEE7A /* DemoTableViewCell.xib */; };
+		BC5FB7A62505DB08003FEE7A /* DemoTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB79C2505DB08003FEE7A /* DemoTabBarViewController.swift */; };
+		BC5FB7A72505DB08003FEE7A /* CustomNavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB79E2505DB08003FEE7A /* CustomNavigationBarStyle.swift */; };
+		BC5FB7A82505DB08003FEE7A /* DemoViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB79F2505DB08003FEE7A /* DemoViewControllers.swift */; };
+		BC5FB7A92505DB08003FEE7A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7A02505DB08003FEE7A /* BaseNavigationController.swift */; };
+		BC5FB7AA2505DB08003FEE7A /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7A12505DB08003FEE7A /* DemoTableViewCell.swift */; };
+		BC5FB7AC2505DF47003FEE7A /* ScrollHeaderImageBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7AB2505DF47003FEE7A /* ScrollHeaderImageBarViewController.swift */; };
+		BC5FB7AE2505E002003FEE7A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7AD2505E002003FEE7A /* Utils.swift */; };
+		BC5FB7B02505E080003FEE7A /* ScrollImageNavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FB7AF2505E080003FEE7A /* ScrollImageNavigationBarStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AAC029718471E7CD994FBC7 /* BDNavigationBarTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BDNavigationBarTransition.podspec; path = ../BDNavigationBarTransition.podspec; sourceTree = "<group>"; };
-		250B88B276F84F5216F2C2C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1AAC029718471E7CD994FBC7 /* BDNavigationBarTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BDNavigationBarTransition.podspec; path = ../BDNavigationBarTransition.podspec; sourceTree = "<group>"; };
+		250B88B276F84F5216F2C2C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		53229D09C3ED5ACFCB5A02C0 /* Pods-BDNavigationBarTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDNavigationBarTransition_Example.release.xcconfig"; path = "Target Support Files/Pods-BDNavigationBarTransition_Example/Pods-BDNavigationBarTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BDNavigationBarTransition_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDNavigationBarTransition_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +55,19 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		715AA52E17980AD5CECB6C55 /* Pods_BDNavigationBarTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDNavigationBarTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CC86BA581763F683CE02C0 /* Pods-BDNavigationBarTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDNavigationBarTransition_Tests.release.xcconfig"; path = "Target Support Files/Pods-BDNavigationBarTransition_Tests/Pods-BDNavigationBarTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DD99DCA9516D696BC140781A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC5FB7982505DB08003FEE7A /* DynamicNaviBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicNaviBarViewController.swift; sourceTree = "<group>"; };
+		BC5FB7992505DB08003FEE7A /* ScrollHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollHeaderViewController.swift; sourceTree = "<group>"; };
+		BC5FB79A2505DB08003FEE7A /* BaseDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDemoViewController.swift; sourceTree = "<group>"; };
+		BC5FB79B2505DB08003FEE7A /* DemoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
+		BC5FB79C2505DB08003FEE7A /* DemoTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTabBarViewController.swift; sourceTree = "<group>"; };
+		BC5FB79E2505DB08003FEE7A /* CustomNavigationBarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarStyle.swift; sourceTree = "<group>"; };
+		BC5FB79F2505DB08003FEE7A /* DemoViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewControllers.swift; sourceTree = "<group>"; };
+		BC5FB7A02505DB08003FEE7A /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		BC5FB7A12505DB08003FEE7A /* DemoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		BC5FB7AB2505DF47003FEE7A /* ScrollHeaderImageBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollHeaderImageBarViewController.swift; sourceTree = "<group>"; };
+		BC5FB7AD2505E002003FEE7A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BC5FB7AF2505E080003FEE7A /* ScrollImageNavigationBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImageNavigationBarStyle.swift; sourceTree = "<group>"; };
+		DD99DCA9516D696BC140781A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EB844D7A5700F7B8515FFBEF /* Pods-BDNavigationBarTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDNavigationBarTransition_Example.debug.xcconfig"; path = "Target Support Files/Pods-BDNavigationBarTransition_Example/Pods-BDNavigationBarTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC45638B2EBC1F2929780D41 /* Pods_BDNavigationBarTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDNavigationBarTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB9F394E6D73C5551C3DE49 /* Pods-BDNavigationBarTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDNavigationBarTransition_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BDNavigationBarTransition_Tests/Pods-BDNavigationBarTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +101,6 @@
 				EFB9F394E6D73C5551C3DE49 /* Pods-BDNavigationBarTransition_Tests.debug.xcconfig */,
 				A3CC86BA581763F683CE02C0 /* Pods-BDNavigationBarTransition_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,6 +128,7 @@
 		607FACD21AFB9204008FA782 /* Example for BDNavigationBarTransition */ = {
 			isa = PBXGroup;
 			children = (
+				BC5FB7972505DB08003FEE7A /* Demos */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -149,6 +173,33 @@
 				DD99DCA9516D696BC140781A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		BC5FB7972505DB08003FEE7A /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				BC5FB79D2505DB08003FEE7A /* CustomNavigationBarStyles */,
+				BC5FB79A2505DB08003FEE7A /* BaseDemoViewController.swift */,
+				BC5FB7A02505DB08003FEE7A /* BaseNavigationController.swift */,
+				BC5FB79C2505DB08003FEE7A /* DemoTabBarViewController.swift */,
+				BC5FB7A12505DB08003FEE7A /* DemoTableViewCell.swift */,
+				BC5FB79B2505DB08003FEE7A /* DemoTableViewCell.xib */,
+				BC5FB79F2505DB08003FEE7A /* DemoViewControllers.swift */,
+				BC5FB7982505DB08003FEE7A /* DynamicNaviBarViewController.swift */,
+				BC5FB7AB2505DF47003FEE7A /* ScrollHeaderImageBarViewController.swift */,
+				BC5FB7992505DB08003FEE7A /* ScrollHeaderViewController.swift */,
+				BC5FB7AD2505E002003FEE7A /* Utils.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		BC5FB79D2505DB08003FEE7A /* CustomNavigationBarStyles */ = {
+			isa = PBXGroup;
+			children = (
+				BC5FB79E2505DB08003FEE7A /* CustomNavigationBarStyle.swift */,
+				BC5FB7AF2505E080003FEE7A /* ScrollImageNavigationBarStyle.swift */,
+			);
+			path = CustomNavigationBarStyles;
 			sourceTree = "<group>";
 		};
 		EA4C1DD4ED9D8F2BAF0EAD45 /* Frameworks */ = {
@@ -227,6 +278,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +300,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				BC5FB7A52505DB08003FEE7A /* DemoTableViewCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +384,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5FB7A32505DB08003FEE7A /* ScrollHeaderViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				BC5FB7AC2505DF47003FEE7A /* ScrollHeaderImageBarViewController.swift in Sources */,
+				BC5FB7A42505DB08003FEE7A /* BaseDemoViewController.swift in Sources */,
+				BC5FB7A82505DB08003FEE7A /* DemoViewControllers.swift in Sources */,
+				BC5FB7A62505DB08003FEE7A /* DemoTabBarViewController.swift in Sources */,
+				BC5FB7A92505DB08003FEE7A /* BaseNavigationController.swift in Sources */,
+				BC5FB7A72505DB08003FEE7A /* CustomNavigationBarStyle.swift in Sources */,
+				BC5FB7A22505DB08003FEE7A /* DynamicNaviBarViewController.swift in Sources */,
+				BC5FB7AA2505DB08003FEE7A /* DemoTableViewCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				BC5FB7AE2505E002003FEE7A /* Utils.swift in Sources */,
+				BC5FB7B02505E080003FEE7A /* ScrollImageNavigationBarStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

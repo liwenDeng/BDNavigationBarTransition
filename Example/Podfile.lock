@@ -1,0 +1,16 @@
+PODS:
+  - BDNavigationBarTransition (0.1.0)
+
+DEPENDENCIES:
+  - BDNavigationBarTransition (from `../`)
+
+EXTERNAL SOURCES:
+  BDNavigationBarTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BDNavigationBarTransition: a3585752020bbf09b2366cb60ffce18bc896f6c4
+
+PODFILE CHECKSUM: 12186f332295f5b6ded8375eeda3b0ca41efb513
+
+COCOAPODS: 1.9.1
